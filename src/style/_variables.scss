@@ -4,3 +4,4 @@ $color_primaire_complement: complement($color_primaire);
 $color_primaire_light: lighten($color_primaire,70);
 $breackpoint: 860px;
 $color_primaire_fonce: darken($color_primaire, 30);
+$color_secondaire_fonce:  darken($color_secondaire, 10);
