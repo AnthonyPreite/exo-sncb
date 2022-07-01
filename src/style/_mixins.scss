@@ -1,0 +1,5 @@
+@mixin desktopView($breackpoint){
+    @media screen and (min-width:$breackpoint) {
+        @content;
+    }
+}

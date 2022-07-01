@@ -1,0 +1,10 @@
+.search-form {
+    background-color: $color_secondaire;
+    &_input {
+        color: $color_primaire;
+    }
+    &_button {
+        background: $color_primaire_complement;
+        color: $color_primaire_light;
+    }
+}
