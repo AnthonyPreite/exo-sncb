@@ -1,12 +1,13 @@
 .footer {
+    background-color: $color_secondaire;
+    font-size: 16px;
     position: fixed;
     bottom: 0;
+    left: 0px;
     width: 100%;
-
-    background-color: rgb(229, 225, 225);
-    // height: 2rem;
+    height: 4rem;
     text-align: center;
-    line-height: 2rem;
+    // line-height: 2rem;
     &_explication{
         color: black;
         font-weight: bold;
@@ -17,5 +18,4 @@
         font-weight: 100;
         font-family: serif;  
     }
-    
 }
