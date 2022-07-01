@@ -5,16 +5,6 @@
 @import "_components/footer";
 
 body {
-    background-color:$color_primaire;
-    @include desktopView($breackpoint) {
-        background-color:yellow;
-    }
-}
-
-p {
-    color:red;
-}
-.sidebar{
-    background: $color_primaire_fonce;
-    padding: 1rem;
+    box-sizing: border-box ;
+    margin: 0;
 }
