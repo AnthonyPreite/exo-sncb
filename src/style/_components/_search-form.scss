@@ -1,10 +1,26 @@
-.search-form {
-    background-color: $color_secondaire;
-    &_input {
-        color: $color_primaire;
-    }
-    &_button {
-        background: $color_primaire_complement;
-        color: $color_primaire_light;
-    }
+.forms {
+    display: flex;
+    justify-content: center;
+    font-size: 1rem;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #fff;
+    
+}
+
+.titlecontact {
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #313131;
+    font-size: 1.2rem;
+    margin-left: 34rem;
+}
+
+#message {
+    height: 25rem;
+}
+
+input {
+    width: 80rem;
+    border: 1px solid $color_secondaire_fonce ;
+    padding: 0.8rem;
+    border-radius: 0.4rem;
 }
